@@ -1,0 +1,79 @@
+#page-home {
+  width: 100vw;
+  height: 100vh;
+}
+
+svg {
+  max-width: 100%;
+}
+
+#page-home .content {
+  max-width: 1144px;
+  height: 100%;
+  margin: 0 auto;
+  background-color: var(--color-primary);
+  display: flex;
+}
+
+#page-home .content aside {
+  max-width: 12rem;
+  flex: 1
+}
+
+#page-home .content aside .os-options {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#page-home .content aside .os-options button {
+  width: 100%;
+  height: 9rem;
+  margin-bottom: 0.5rem;
+  background: transparent;
+  border: none;
+  padding: 0.5rem;
+  overflow: hidden;
+}
+
+#page-home .content aside .os-options button:hover {
+  background-color: var(--color-secondary);
+}
+
+#page-home .content aside .os-options button .title-button {
+  color: var(--color-title-in-primary);
+}
+
+#page-home .content main {
+  width: 100%;
+  background-color: var(--color-box-base);
+  flex: 1
+}
+
+#page-home .content main .menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--color-text-complement);  
+}
+
+#page-home .content main .menu-container button {
+  width: 8rem;
+  height: 8rem;
+}
+
+#page-home .content main .menu-container button:hover {
+  background-color: var(--color-input-background);
+}
+
+#page-home .content main .menu-container .menu-left-container {
+  height: 8rem;
+  background-color: var(--color-box-base);
+
+}
+
+#page-home .content main .menu-container .menu-left-container {
+  width: 10rem;
+  display: flex;
+  align-items: center;
+}
